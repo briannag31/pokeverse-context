@@ -16,7 +16,7 @@ function FavoritesProvider({ children }) {
   }
 
   return (
-    <FavoritesContext.Provider>
+    <FavoritesContext.Provider value={{favorites, addFavorite, removeFavorite}}>
       {children}
     </FavoritesContext.Provider>
   );

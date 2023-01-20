@@ -18,6 +18,7 @@ function Navigation() {
         <Nav className='me-auto'>
           <Nav.Link as="div">
             <NavLink to='/'>All Pokemon</NavLink>
+            <NavLink to='/favorites'>My Favorites</NavLink>
           </Nav.Link>
         </Nav>
       </Container>
