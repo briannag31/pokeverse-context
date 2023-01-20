@@ -10,12 +10,12 @@ function Favorites (){
         <>
         <Container>
         <Row className='g-4'>
-        {favorites.map((favorite)=>{
-            // <Col key={favorite.name}>
-            // <PokemonCard name={favorite} />
-            // </Col>
-            <h1>Hello</h1>
-        })}
+        {favorites.map((favorite)=>(
+            <Col key={favorite.name}>
+            <PokemonCard name={favorite} />
+            </Col>
+       
+        ))}
         </Row>
         </Container>
         </>
